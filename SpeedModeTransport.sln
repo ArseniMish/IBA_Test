@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedModeTransport.WebApi", "SpeedModeTransport\SpeedModeTransport.WebApi.csproj", "{E6BF1834-D7A7-4C84-BA23-3D31CC23B28A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{4A6FE548-0894-4662-84D6-E1A3D9FEA8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedModeTransport.Application", "SpeedModeTransport.Application\SpeedModeTransport.Application.csproj", "{2A4F37E4-07BE-4A47-B8FC-AB676D7536D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6BF1834-D7A7-4C84-BA23-3D31CC23B28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BF1834-D7A7-4C84-BA23-3D31CC23B28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BF1834-D7A7-4C84-BA23-3D31CC23B28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BF1834-D7A7-4C84-BA23-3D31CC23B28A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4F37E4-07BE-4A47-B8FC-AB676D7536D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4F37E4-07BE-4A47-B8FC-AB676D7536D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4F37E4-07BE-4A47-B8FC-AB676D7536D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4F37E4-07BE-4A47-B8FC-AB676D7536D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A4F37E4-07BE-4A47-B8FC-AB676D7536D9} = {4A6FE548-0894-4662-84D6-E1A3D9FEA8C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75C8EACE-E916-46A2-86B5-97E2B628AA7A}
+	EndGlobalSection
+EndGlobal
